@@ -1,0 +1,49 @@
+{
+    "repos": {
+      "repo_name_1": {
+        "start_date": "YYYY-MM-DD",
+        "last_pull_date": "YYYY-MM-DD",
+        "commits": [
+          {
+            "sha": "commit_sha",
+            "date": "YYYY-MM-DD",
+            "author": "author_name",
+            "message": "Commit message",
+            "file_types": ["py", "html"]
+          }
+        ],
+        "pr_submitted": [
+            {
+            "pr_id": "pr_id_1",
+            "date": "YYYY-MM-DD",
+            "title": "PR title",
+            "status": "merged"
+            }
+        ],
+        "pr_reviews": [
+            {
+            "pr_id": "pr_id_2",
+            "date": "YYYY-MM-DD",
+            "comment": "Your comment text",
+            "pr_url": "https://github.com/owner/repo/pull/2"
+            }
+        ]
+      },
+      "repo_name_2": {
+        "start_date": "YYYY-MM-DD",
+        "last_pull_date": "YYYY-MM-DD",
+        "commits": [
+          {
+            "sha": "another_commit_sha",
+            "date": "YYYY-MM-DD",
+            "author": "another_author",
+            "message": "Another commit message",
+            "file_types": ["js", "css"]
+          }
+        ],
+        "pr_submitted": [],
+        "pr_reviews": []
+      }
+    }
+  }
+  
